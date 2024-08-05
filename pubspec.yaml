@@ -1,0 +1,35 @@
+name: hotel_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  fl_chart: ^0.68.0
+  flutter:
+    sdk: flutter
+  flutter_form_builder: ^9.3.0
+  flutter_secure_storage: ^9.2.2
+  form_builder_validators: ^11.0.0
+  http: ^1.2.2
+  percent_indicator: ^4.2.3
+  country_picker: ^2.0.26
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: RobotoLight
+      fonts:
+        - asset: assets/fonts/Roboto-Light.ttf
+    - family: EduAUVICWANTHand
+      fonts:
+        - asset: assets/fonts/EduAUVICWANTHand-Regular.ttf
+        
